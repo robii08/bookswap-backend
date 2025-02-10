@@ -11,7 +11,7 @@ const bookSchema = new mongoose.Schema({
     }, 
     price:{
         required:true,
-        type:String
+        type:Number
     }, 
     language:{
         required:true,
@@ -32,7 +32,8 @@ const bookSchema = new mongoose.Schema({
     userId:{
         required:true,
         type:String
-    }
+    },
+    
 })
 
 
